@@ -21,7 +21,9 @@
               <div class="deta-box">
                 <div class="deta-title">
                   <h3>PEOPLE DATA</h3>
-                  <a href="" class="btn-next">NEXT PERSON</a>
+                  <a href="javascript:void(0);" class="btn-next" id="nextButton"
+                    >NEXT PERSON</a
+                  >
                 </div>
                 <!-- data box start -->
                 <div class="date-body">
@@ -29,14 +31,14 @@
                     <div
                       class="col-md-1 col-2 deta-sr p-0 d-flex justify-content-center align-items-center"
                     >
-                      <h1>1</h1>
+                      <h1 id="personNumber">1</h1>
                     </div>
                     <div class="col-md-11 col-10 p-0">
                       <div class="deta-name">
-                        <h2>Name: Fist Person</h2>
+                        <h2 id="personName">Name: Fist Person</h2>
                       </div>
                       <div class="deta-location">
-                        <h3>Location: Florida</h3>
+                        <h3 id="personLocation">Location: Florida</h3>
                       </div>
                     </div>
                   </div>
@@ -45,11 +47,12 @@
               </div>
             </div>
             <div class="col-lg-12 text-center">
-              <h6>CURRENTLY 1 PEOPLE SHOWING</h6>
+              <h6 id="currentlyShowing">CURRENTLY 1 PEOPLE SHOWING</h6>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <script src="./script.js"></script>
 </html>
